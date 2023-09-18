@@ -94,7 +94,7 @@ int main()
 ```
 
 # D - Cell Value
-
+This is a mathematical problem, in reality, we have multiple x, and y positions up to say t sets of x and y. Upon getting the values of x and y we can apply the following equation that we derive by observation. See that for the first column all the even positions contain a squared number which is the square of the column value and for the second column, the number is 1 subtracted from the square number. So we can obtain a relationship, let's call it case-I, that is $column^2$ - row + 1. Similarly, we observe that for the first column, the odd positions or the odd rows have the value given by $(column-1)^2$ + row. Now this is only valid while the column is greater than the row. For case II, observe the first row of the third column, it contains a squared number, right? similarly, observe the first row of the fifth column, it contains a squared number. So we can obtain a relationship $row^2$ - column + 1, for every odd row. And similarly, for every even row, we get $(row-1)^2$. Keeping these relationships in mind the 2 cases can be combined and implemented as shown in the code below.
 ```cpp
 #include <bits/stdc++.h>
  
