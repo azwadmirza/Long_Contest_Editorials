@@ -26,6 +26,7 @@ int main()
 ```
 
 # B - Where is the Number?
+For this problem, it can be done using an array or a vector to store the inputs. Vectors were discussed in class and it was emphasized that vectors are superior to arrays so we are going to go with vectors. In a vector add the elements, and then loop over the elements of the vector from i -> 0 to n-1. If the value of v[i]!=i+1 that means that the value i+1 is missing. Now why i+1, since the loop is from 0 to n-1 and we want to check if numbers 1 to n is present, checking with i+1 satisfies that requirement. 
 ```cpp
 #include <bits/stdc++.h>
  
@@ -59,7 +60,7 @@ int main()
 ```
 
 # C - What Moves?
-
+This problem is also pretty simple, we want to know the minimum number of moves to make the array sorted in ascending order such that every element is at least as large as the previous element. To do this one can simply check if $a_(i-1)$ < $a_i$
 ```cpp
 #include <bits/stdc++.h>
  
