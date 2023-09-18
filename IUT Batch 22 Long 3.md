@@ -60,7 +60,7 @@ int main()
 ```
 
 # C - What Moves?
-This problem is also pretty simple, we want to know the minimum number of moves to make the array sorted in ascending order such that every element is at least as large as the previous element. To do this one can simply check if $a_i$ < $a_{i-1}$, if this condition is satisfied, you add the difference between $a_{i-1}$ and $a_i$ to the answer. And then to make the numbers balanced assign $a_i$=$a_{i-1}$. This ensures that upon performing the moves the values of the array/vector are updated accordingly. 
+This problem is also pretty simple, we want to know the minimum number of moves to make the array sorted in ascending order such that every element is at least as large as the previous element. To do this one can simply check if $a_i$ < $a_{i-1}$, if this condition is satisfied, you add the difference between $a_{i-1}$ and $a_i$ to the answer. And then to make the numbers balanced assign $a_i$ = $a_{i-1}$. This ensures that upon performing the moves the values of the array/vector are updated accordingly. 
 ```cpp
 #include <bits/stdc++.h>
  
