@@ -1,5 +1,5 @@
 # A - Even, Odd Phenomenon
-The idea behind this problem is simple, the statement literally tells you what to do, if the number is even divide that by 2, and if the number is even, multiply it by 3 and add 1 to it. To check if a number is odd you can check the remainder upon dividing it by 2, which in simple terms is the mod operation that gives you the remainder. if ```cpp n%2==0``` this implies that the number is even as dividing by 2 yields a value of 0 and similarly if ```cpp n%2!=0``` or in other words if n mod 2 = 1 means that the number is odd as the division of 2 with an odd number yields a remainder of 1.
+The idea behind this problem is simple, the statement literally tells you what to do, if the number is even divide that by 2, and if the number is even, multiply it by 3 and add 1 to it. To check if a number is odd you can check the remainder upon dividing it by 2, which in simple terms is the mod operation that gives you the remainder. if ```n%2==0``` this implies that the number is even as dividing by 2 yields a value of 0 and similarly if ```n%2!=0``` or in other words if n mod 2 = 1 means that the number is odd as the division of 2 with an odd number yields a remainder of 1.
 ```cpp
 #include <bits/stdc++.h>
  
@@ -138,8 +138,8 @@ int main()
 ```
 
 # E - Don't Fight the Fellow Knight 
-This is also a mathematical problem. Here for $1<=k<=n$, we are asked to determine the number of arrangements for a $k * k$ chessboard, such that two knights can be placed without attacking each other. For a k*k chessboard, the number of ways 2 knights can be placed such that they don't attack each other is given by the formula: (${k}^2$*${k}^2$-1)/2 - $4*(k-1)*(k-2)$.
-The first term is the total number of ways 2 knights can be placed on a k*k chessboard. The second term is the number of ways 2 knights can be placed such that they attack each other. The second term is calculated by considering the $2*3$ and $3*2$ chessboards and multiplying them by 4. Since there are 8 ways to place 2 knights on a $2*3$ or $3*2$ chessboard such that they attack each other. The $2*3$ and $3*2$ chessboards are subtracted from the k*k chessboard to get the number of ways 2 knights can be placed on a k*k chessboard such that they don't attack each other
+This is also a mathematical problem. Here for $1<=k<=n$, we are asked to determine the number of arrangements for a $k * k$ chessboard, such that two knights can be placed without attacking each other. For a k*k chessboard, the number of ways 2 knights can be placed such that they don't attack each other is given by the formula: ```(${k}^2$*${k}^2$-1)/2 - $4*(k-1)*(k-2)$```.
+The first term is the total number of ways 2 knights can be placed on a k*k chessboard. The second term is the number of ways 2 knights can be placed such that they attack each other. The second term is calculated by considering the ```2*3``` and ```3*2``` chessboards and multiplying them by 4. Since there are 8 ways to place 2 knights on a ```2*3``` or ```3*2``` chessboard such that they attack each other. The $2*3$ and $3*2$ chessboards are subtracted from the k*k chessboard to get the number of ways 2 knights can be placed on a k*k chessboard such that they don't attack each other
 ```cpp
 #include <bits/stdc++.h>
  
