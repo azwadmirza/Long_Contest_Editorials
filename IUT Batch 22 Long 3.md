@@ -226,7 +226,8 @@ int main() {
 ```
 
 # H - Fix them Ladders
-This is an interesting problem that makes use of binary search. It involves a mathematical proof using the idea of congruence and similarity. The proof is shown below
+This is an interesting problem that makes use of binary search. It involves a mathematical proof using the idea of congruence and similarity. The proof is shown below:
+![CrossedLaddersImage](H_CrossedLadders.jpg)
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
