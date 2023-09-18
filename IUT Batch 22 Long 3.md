@@ -493,7 +493,7 @@ int main()
 ```
 
 # O - Why? 
-The minimum total cost can be found optimally by determining the median. The median is the middle of the sorted sequence. We can find the absolute sum or in other words $$\sum{|a_{i}-median|}$$ and the median is $$a_{\floor{n/2}}$$
+The minimum total cost can be found optimally by determining the median. The median is the middle of the sorted sequence. We can find the absolute sum or in other words $$\sum{|a_{i}-median|}$$ and the median is $$median=a_{n//2}}$$ where // indicates true division or floor division
 ```cpp
 #include <bits/stdc++.h>
  
