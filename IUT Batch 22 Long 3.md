@@ -906,7 +906,7 @@ int main()
 ```
 
 # Y - More Police Officers?
-
+[See tutorial for Problem A](https://codeforces.com/blog/entry/12082)
 ```cpp
 #include<bits/stdc++.h>
 using namespace std;
@@ -941,7 +941,7 @@ int main()
 ```
 
 # Z - Can Matrices be Beautiful?
-
+[See tutorial for Problem A](https://codeforces.com/blog/entry/6419)
 ```cpp
 #include<bits/stdc++.h>
 using namespace std;
