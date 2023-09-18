@@ -526,7 +526,7 @@ int main()
 ```
 
 # P - Find That Digit!!! 
-
+[Video Solution](https://youtu.be/QAcH8qD9Pe0?si=KpeHqmxTTc2r_2gp)
 ```cpp
 #include <bits/stdc++.h>
  
