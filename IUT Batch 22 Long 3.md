@@ -139,7 +139,7 @@ int main()
 
 # E - Don't Fight the Fellow Knight 
 This is also a mathematical problem. Here for $1<=k<=n$, we are asked to determine the number of arrangements for a ```k * k``` chessboard, such that two knights can be placed without attacking each other. For a ```k*k``` chessboard, the number of ways 2 knights can be placed such that they don't attack each other is given by the formula: 
-```tex
+```
 \[\frac{{k^2 \cdot k^2 - 1}}{2} - 4 \cdot (k - 1) \cdot (k - 2)\]
 ```
 .
