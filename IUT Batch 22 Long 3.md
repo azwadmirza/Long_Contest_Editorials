@@ -571,7 +571,7 @@ int main()
 ```
 
 # Q - DJ Remix 
-
+[See Problem A](https://codeforces.com/blog/entry/4930)
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
@@ -607,6 +607,7 @@ int main() {
 ```
 
 # R - Mom, Where is My Sock?! 
+[See Codeforces Tutorial for Problem A](https://codeforces.com/blog/entry/13465?locale=en)
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
@@ -621,6 +622,7 @@ return 0;
 }
 ```
 # S - Avoid That Trap
+[See tutorial for problem B](https://codeforces.com/blog/entry/120165)
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
@@ -686,7 +688,7 @@ int main()
 ```
 
 # T - Permutation Differences 
-
+[See tutorial for Problem A](https://codeforces.com/blog/entry/120353)
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
