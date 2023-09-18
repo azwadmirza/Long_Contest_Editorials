@@ -144,7 +144,7 @@ The first term is the total number of ways 2 knights can be placed on a ```k*k``
 - A knight two rows/columns away from the edge of the board (4 positions) attacking a knight on the edge.
 - A knight two rows/columns away from the edge (4 positions) attacking a knight two rows/columns away from the edge.
 - A knight one row/column away from the edge (4 positions) attacking a knight one row/column away from the edge.
-- (k−1) represents the number of potential rows or columns where you can place the first knight. Since there are k rows and k columns on a ```k×k``` chessboard, there are k−1 possible positions for the first knight in each direction (the last row or column is excluded because if you place a knight there, there won't be enough room for another knight to maintain the required distance).
+- (k−1) represents the number of potential rows or columns where you can place the first knight. Since there are k rows and k columns on a ```k × k``` chessboard, there are k−1 possible positions for the first knight in each direction (the last row or column is excluded because if you place a knight there, there won't be enough room for another knight to maintain the required distance).
 - (k−2) represents the number of potential rows or columns where you can place the second knight without attacking the first knight. This is one less than the number of rows or columns available because the second knight can't occupy the same row or column as the first knight.
 ```cpp
 #include <bits/stdc++.h>
