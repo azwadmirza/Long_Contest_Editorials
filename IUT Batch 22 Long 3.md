@@ -172,9 +172,7 @@ int main()
 ```
 
 # F - Pile of Coins
-
-
-
+Now in every step, we can remove 2 from one pile and one from another. This means that from the 2 piles, at each step we must be able to remove 3 coins combined, so the sum of the 2 piles must be divisible by 3. Next thing we observe that twice of one pile must be greater than equal to the other pile. This is to ensure that while removing 2 from one pile and 1 from another, any one of the piles does not end up becoming empty. 
 ```cpp
 #include <bits/stdc++.h>
  
@@ -206,7 +204,7 @@ int main()
 ```
 
 # G - Uniqueness 
-
+As mentioned in class, a set stores distinct numbers in a sorted manner. While we are asked to find distinct numbers, the numbers can added or inserted into a set such that upon calculating the size it gives the distinct numbers present. This problem was discussed in class. 
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
