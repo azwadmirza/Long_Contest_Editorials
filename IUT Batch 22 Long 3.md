@@ -138,11 +138,7 @@ int main()
 ```
 
 # E - Don't Fight the Fellow Knight 
-This is also a mathematical problem. Here for $1<=k<=n$, we are asked to determine the number of arrangements for a ```k * k``` chessboard, such that two knights can be placed without attacking each other. For a ```k*k``` chessboard, the number of ways 2 knights can be placed such that they don't attack each other is given by the formula: 
-```
-\[\frac{{k^2 \cdot k^2 - 1}}{2} - 4 \cdot (k - 1) \cdot (k - 2)\]
-```
-.
+This is also a mathematical problem. Here for $1<=k<=n$, we are asked to determine the number of arrangements for a ```k * k``` chessboard, such that two knights can be placed without attacking each other. For a ```k*k``` chessboard, the number of ways 2 knights can be placed such that they don't attack each other is given by the formula: $$\frac{{k^2 \cdot (k^2 - 1)}}{2} - 4 \cdot (k - 1) \cdot (k - 2)$$.
 The first term is the total number of ways 2 knights can be placed on a k*k chessboard. The second term is the number of ways 2 knights can be placed such that they attack each other. The second term is calculated by considering the ```2*3``` and ```3*2``` chessboards and multiplying them by 4. Since there are 8 ways to place 2 knights on a ```2*3``` or ```3*2``` chessboard such that they attack each other. The ```2*3``` and ```3*2``` chessboards are subtracted from the ```k*k``` chessboard to get the number of ways 2 knights can be placed on a ```k*k``` chessboard such that they don't attack each other
 ```cpp
 #include <bits/stdc++.h>
