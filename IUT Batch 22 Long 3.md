@@ -1,5 +1,5 @@
 # A - Even, Odd Phenomenon
-
+The idea behind this problem is simple, the statement literally tells you what to do, if the number is even divide that by 2, and if the number is even, multiply it by 3 and add 1 to it. To check if a number is odd you can check the remainder upon dividing it by 2, which in simple terms is the mod operation that gives you the remainder. if ```cpp n%2==0``` this implies that the number is even as dividing by 2 yields a value of 0 and similarly if ```cpp n%2!=0``` or in other words if n mod 2 = 1 means that the number is odd as the division of 2 with an odd number yields a remainder of 1.
 ```cpp
 #include <bits/stdc++.h>
  
