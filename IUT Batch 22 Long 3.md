@@ -227,7 +227,7 @@ int main() {
 
 # H - Fix them Ladders
 This is an interesting problem that makes use of binary search. It involves a mathematical proof using the idea of congruence and similarity. The proof is shown below:
-[![CrossedLaddersImage](H_CrossedLadders.jpg)](https://github.com/azwadmirza/Long_Contest_Editorials/blob/main/H_CrossedLadders.jpg)
+![CrossedImages](https://github.com/azwadmirza/Long_Contest_Editorials/blob/main/H_CrossedLadders.jpg)
 Now we don't know s, but one thing we do know is that s always has to be between 0 and a minimum of x and y for the 2 ladders to lead against the wall instead of falling down. So this is where we can apply binary search we select a value of s and then we compute c using our equations to find the heights using Pythagoras' theorem and the value of c as per the diagram. We keep running the binary search for as long as the high value and the low value does not have a difference below $10^{-6}$, as per the acceptable error mentioned. In each iteration of the binary search, we change the value of the high and low, if computed c is less than or equal to the current value of c, the value is shifted accordingly to bisect the range accordingly. The streetWidth acts as the mid and the value of the high and low is changed accordingly.
 ```cpp
 #include <bits/stdc++.h>
