@@ -265,7 +265,7 @@ int main()
 ```
 
 # I - Ko te Kader Molla
-
+UVA problems are often a hassle as these problems have a bit weird input-output operations, We are using getline, to take the entire line of the input, using typical cin would mean that it has something called a "trailing newline effect" so using normal cin, you would need cin.ignore() alongside the normal cin commands. So for uva you would observe that if you don't take the input accordingly, the next line of input would take an empty newline instead. So we often use getline to take the entire line as input. To take numerical inputs using getline we can use stoi(for integer) or stoll(for long long) functions. Next up we utilize the idea of a map, we have N dictionary pairs where for instance "Ko te Kader Molla" would give you "Tui Rajakar tui rajakar" which are unique dictionary pairs. There would be N dictionary pairs and Q queries where each key is given and you have to provide a value as output along with a \n instead of an endl. Now this is something important to learn, endl flushes the output and \n outputs the newline without any flushing.
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
